@@ -23,9 +23,14 @@ export default function Layout({ children, pageTitle }) {
               Terms of use
             </a>
           </Link>
-          <Link href='/campuses'>
-            <a className={styles.navlink} href='/campuses'>
+          <Link href='/Campuses'>
+            <a className={styles.navlink} href='/Campuses'>
               Campuses
+            </a>
+          </Link>
+          <Link href='/showRequest'>
+            <a className={styles.navlink} href='/showRequest'>
+              Show Request
             </a>
           </Link>
         </nav>

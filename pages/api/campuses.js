@@ -1,0 +1,26 @@
+export default function handler(req, res) {
+  res.status(200).json([
+    { id: 1, name: 'Amsterdam' },
+    { id: 2, name: 'Barcelona' },
+    { id: 3, name: 'Berlin' },
+    { id: 4, name: 'Biarritz' },
+    { id: 5, name: 'Bordeaux' },
+    { id: 6, name: 'Brussels' },
+    { id: 7, name: 'Bucharest' },
+    { id: 8, name: 'La Loupe' },
+    { id: 9, name: 'Lille' },
+    { id: 10, name: 'Lisbon' },
+    { id: 11, name: 'London' },
+    { id: 12, name: 'Lyon' },
+    { id: 13, name: 'Madrid' },
+    { id: 14, name: 'Marseille' },
+    { id: 15, name: 'Nantes' },
+    { id: 16, name: 'Orléans' },
+    { id: 17, name: 'Paris' },
+    { id: 18, name: 'Reims' },
+    { id: 19, name: 'Remote' },
+    { id: 20, name: 'Strasbourg' },
+    { id: 21, name: 'Toulouse' },
+    { id: 22, name: 'Tours' },
+  ]);
+}
